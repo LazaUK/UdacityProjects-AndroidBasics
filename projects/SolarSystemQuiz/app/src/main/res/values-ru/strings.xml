@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Викторина по Солнечной Системе</string>
+    <string name="caption">Насколько хорошо Вы знаете нашу Солнечную Систему ?</string>
+    <string name="q1">Вопрос № 1: Сколько миллиардов лет назад сформировался Марс ?</string>
+    <string name="q1_a">4 миллиарда</string>
+    <string name="q1_b">4.5 миллиарда</string>
+    <string name="q1_c">5 миллиардов</string>
+    <string name="q1_d">5.5 миллиардов</string>
+    <string name="q2">Вопрос № 2: Какая планета обладает самым большим океаном ?</string>
+    <string name="q2_a">Земля</string>
+    <string name="q2_b">Юпитер</string>
+    <string name="q2_c">Нептун</string>
+    <string name="q2_d">Уран</string>
+    <string name="q3">Вопрос № 3: В каком году был найден Нептун ?</string>
+    <string name="q4">Вопрос № 4: Назовите спутники Марса (выберете два) ?</string>
+    <string name="q4_b">Фобос</string>
+    <string name="q4_d">Деймос</string>
+    <string name="q4_c">Орион</string>
+    <string name="q4_a">Поллукс</string>
+    <string name="score">Ваш результат</string>
+</resources>

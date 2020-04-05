@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Solar System Quiz</string>
+    <string name="caption">How much do you actually know about our Solar System?</string>
+    <string name="q1">Question 1: How many billions of years ago was Mars formed?</string>
+    <string name="q1_a">4 billion</string>
+    <string name="q1_b">4.5 billion</string>
+    <string name="q1_c">5 billion</string>
+    <string name="q1_d">5.5 billion</string>
+    <string name="q2">Question 2: Which planet in the Solar System has the largest ocean?</string>
+    <string name="q2_a">Earth</string>
+    <string name="q2_b">Jupiter</string>
+    <string name="q2_c">Neptune</string>
+    <string name="q2_d">Uranus</string>
+    <string name="q3">Question 3: In what year was Neptune discovered?</string>
+    <string name="q3_a">1759</string>
+    <string name="q3_b">1849</string>
+    <string name="q3_c">1846</string>
+    <string name="q3_d">1990</string>
+    <string name="q4">Question 4: What are the names of Mars\' moons (choose two)?</string>
+    <string name="q4_a">Pollux</string>
+    <string name="q4_b">Phobos</string>
+    <string name="q4_c">Orion</string>
+    <string name="q4_d">Deimos</string>
+    <string name="score">Get Your Score</string>
+</resources>
