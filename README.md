@@ -10,6 +10,4 @@ This repo contains all the main projects I've built and submitted as a part of m
 ## Interactive app: Tennis Score Keeper
 | App Screenshot | App Description |
 | --- | --- |
-| ![ScoreKeep](/images/project_scorekeeper.png) | Row 1 Cell 2
-
-Test|
+| ![ScoreKeep](/images/project_scorekeeper.png) | Row 1 Cell 2 \n Test|
