@@ -1,7 +1,7 @@
 # "Android Basics by Google" - Nanodegree Program at Udacity
 [Udacity](https://www.udacity.com/) offers great range of various training programs and courses, grouped by the so-called "schools": "Data Science", "Artificial Intelligence", "Programming", "Autonomous Systems", "Cloud Computing" and "Business".
 
-I kept some of their Nanodegree (ND) programs in my wishlist, with intention to enrol sometime in the future when I would have more of the free time (dreams, sweet dreams.. :thought_balloon:). However, when Udacity announced free 30-days access to all of their NDs at the end of March 2020, I had no more excuses and decided to start my first ND program - "Android Basics by Google".
+I kept some of their Nanodegree (ND) programs in my wishlist, with intention to enrol sometime in the future when I would have more of the free time (dreams, sweet dreams.. :zzz:). However, when Udacity announced free 30-days access to all of their NDs at the end of March 2020, I had no more excuses and decided to start my first ND program - "Android Basics by Google".
 
 I officially pledged to the "30 Days of Udacity" and committed to spend 1-2 hours per day to learn the basics of the Android Apps development. Program has started on 26th of March, and I plan to complete as much as I can by **26th of April**.
 
