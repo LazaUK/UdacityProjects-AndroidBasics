@@ -5,7 +5,7 @@ I kept some of their Nanodegree (ND) programs in my wishlist for a while, with i
 
 I officially pledged to the "30 Days of Udacity" (:hand:) and committed to spend 1-2 hours per day (:muscle:) to learn the basics of the Android Apps development. Program has started on 26th of March, and I plan to complete as much as I can by **26th of April**.
 
-This repo contains all the main projects I've built and submitted as a part of my study. Really great course (which exceeded my expectations - :star2: !) with an excellent content and very knowledgeable tutors (who are Developer Advocates themselves at Google!). Strongly recommend to anyone who wants to get into the field of the mobile app development - :thumbsup: !
+This repo contains all the main projects I've built and submitted as a part of my study. Really great course (which exceeded my expectations - :star2: !) with an excellent content and a very knowledgeable tutors (who are themselves Developer Advocates at Google!). Strongly recommend to anyone who wants to get into the field of the mobile app development - :thumbsup: !
 
 ## Interactive app: Tennis Score Keeper
 | App Screenshot | App Description |
