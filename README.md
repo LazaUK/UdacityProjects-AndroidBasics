@@ -15,4 +15,4 @@ This repo contains all the main projects I've built and submitted as a part of m
 ## Object-Oriented Programming: Solar System Quiz
 | App Screenshot | App Description |
 | --- | --- |
-| ***TO BE UPDATED*** | This app ports to Android platform BBC Earth's solar system quiz. <br><br> It demonstrates the use of: <br>    - ***TO BE UPDATED***. <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
+| ***TO BE UPDATED*** | This app ports to Android platform BBC Earth's [solar system quiz](https://www.bbcearth.com/blog/?article=solar-system-quiz). <br><br> It demonstrates the use of: <br>    - ***TO BE UPDATED***. <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
