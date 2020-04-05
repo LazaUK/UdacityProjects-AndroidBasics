@@ -8,3 +8,6 @@ I officially pledged to the "30 Days of Udacity" and committed to spend 1-2 hour
 This repo contains all the main projects I've built and submitted as a part of my study. Really great course (which exceeded my expectations!) with an excellent content and very knowledgeable tutors (who are Developer Advocates themselves at Google!). Strongly recommend to anyone who wants to get into app development field!
 
 ## Interactive app: Tennis Score Keeper
+| App Screenshot | App Description |
+| --- | --- |
+| Row 1 Cell 1 | Row 1 Cell 2 |
