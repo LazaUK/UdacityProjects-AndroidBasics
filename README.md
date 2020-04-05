@@ -7,7 +7,12 @@ I officially pledged to the "30 Days of Udacity" (:hand:) and committed to spend
 
 This repo contains all the main projects I've built and submitted as a part of my study. Really great course (which exceeded my expectations - :star2: !) with an excellent content and a very knowledgeable tutors (who are themselves Developer Advocates at Google!). Strongly recommend to anyone who wants to get into the field of the mobile app development - :thumbsup: !
 
-## Interactive app: Tennis Score Keeper
+## Making an App Interactive: Tennis Score Keeper
 | App Screenshot | App Description |
 | --- | --- |
 | ![ScoreKeep](/images/project_scorekeeper.png) | This app can be used to keep the score of the big tennis' game. <br><br> It demonstrates the use of: <br>    - **ConstraintLayout** and **LinearLayout** view groups; <br>    - **TextView**, **ImageView** and **Button** views. <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
+
+## Object-Oriented Programming: Solar System Quiz
+| App Screenshot | App Description |
+| --- | --- |
+| **<TO BE UPDATED>** | This app ports to Android platform BBC Earth's solar system quiz. <br><br> It demonstrates the use of: <br>    - **<TO BE UPDATED>**. <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
