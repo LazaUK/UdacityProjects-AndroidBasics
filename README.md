@@ -10,4 +10,4 @@ This repo contains all the main projects I've built and submitted as a part of m
 ## Interactive app: Tennis Score Keeper
 | App Screenshot | App Description |
 | --- | --- |
-| ![ScoreKeep](/images/project_scorekeeper.png) | This app can be used to keep the score of the big tennis' game. <br><br> It demonstrates the use of: <br><br> -ConstraintLayout and LinearLayout group views, <br><br> as well as TextView, ImageView and Button views. <br><br> Please, note that the target API is 28 (Android 9), although it supports the minimum API is 24 (Android 7).|
+| ![ScoreKeep](/images/project_scorekeeper.png) | This app can be used to keep the score of the big tennis' game. <br><br> It demonstrates the use of: <br> -**ConstraintLayout** and **LinearLayout** group views; <br><br> -**TextView**, **ImageView** and **Button** views. <br><br> **Note:** target API is 28 (Android 9), although this app supports minimum API of 24 (Android 7).|
