@@ -22,4 +22,6 @@
     <string name="q4_c">Orion</string>
     <string name="q4_d">Deimos</string>
     <string name="score">Get Your Score</string>
+    <string name="user_name">Enter your name here (optional)</string>
+    <string name="user">User</string>
 </resources>

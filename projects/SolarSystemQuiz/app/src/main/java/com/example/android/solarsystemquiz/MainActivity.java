@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
@@ -17,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     double mScore3 = 0;
     double mScore4_1 = 0;
     double mScore4_2 = 0;
+    double mScore4_3 = 0;
+    double mScore4_4 = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,33 +74,53 @@ public class MainActivity extends AppCompatActivity {
         boolean checked = ((CheckBox) view).isChecked();
         // Check which checkbox was clicked
         switch (view.getId()) {
-            case R.id.q4_b:
+            case R.id.q4_a:
                 if (checked) {
-                    mScore4_1 = 12.5;
+                    mScore4_1 = -12.5;
                 } else {
                     mScore4_1 = 0;
                 }
                 break;
-            case R.id.q4_d:
+            case R.id.q4_b:
                 if (checked) {
                     mScore4_2 = 12.5;
                 } else {
                     mScore4_2 = 0;
                 }
                 break;
+            case R.id.q4_c:
+                if (checked) {
+                    mScore4_3 = -12.5;
+                } else {
+                    mScore4_3 = 0;
+                }
+                break;
+            case R.id.q4_d:
+                if (checked) {
+                    mScore4_4 = 12.5;
+                } else {
+                    mScore4_4 = 0;
+                }
+                break;
         }
-        Log.v("MainActivity", "Score for question 4 is " + (mScore4_1 + mScore4_2));
+        Log.v("MainActivity", "Score for question 4 is " +
+                (mScore4_1 + mScore4_2 + mScore4_3 + mScore4_4));
     }
 
     public void onButtonClicked(View view) {
         // Check the total score
-        double totalScore = mScore1 + mScore2 + mScore3 + mScore4_1 + mScore4_2;
+        double totalScore = mScore1 + mScore2 + mScore3 +
+                mScore4_1 + mScore4_2 + mScore4_3 + mScore4_4;
         boolean highestScore = totalScore > 90;
+        // Check the user name
+        EditText userNameView = (EditText) findViewById(R.id.username);
+        String userName = userNameView.getText().toString();
+
         CharSequence textExtra = "";
         if (highestScore) {
-            textExtra = " Well done!";
+            textExtra = " Well done " + userName + "!";
         } else {
-            textExtra = " You could do better, please try again!";
+            textExtra = " You could do better, please try again " + userName + "!";
         }
 
         // Create toast message
@@ -107,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(context, textToast, durationToast);
         toast.show();
 
+        Log.v("MainActivity", "User name (if provided) is " + userName);
         Log.v("MainActivity", "Total score is " + totalScore);
         Log.v("MainActivity", "Is this the highest score: " + highestScore);
     }
