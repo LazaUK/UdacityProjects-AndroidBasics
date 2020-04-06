@@ -12,14 +12,14 @@ import android.widget.RadioButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
-    double mScore1 = 0;
-    double mScore2 = 0;
-    double mScore3 = 0;
-    double mScore4_1 = 0;
-    double mScore4_2 = 0;
-    double mScore4_3 = 0;
-    double mScore4_4 = 0;
+    int mScore0 = 0;
+    int mScore1 = 0;
+    int mScore2 = 0;
+    int mScore3 = 0;
+    int mScore4_1 = 0;
+    int mScore4_2 = 0;
+    int mScore4_3 = 0;
+    int mScore4_4 = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         // Assign the score to this question
         if (checked) {
             if (view.getId() == R.id.q1_b) {
-                mScore1 = 25;
+                mScore1 = 20;
             } else {
                 mScore1 = 0;
             }
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         // Assign the score to this question
         if (checked) {
             if (view.getId() == R.id.q2_b) {
-                mScore2 = 25;
+                mScore2 = 20;
             } else {
                 mScore2 = 0;
             }
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         // Assign the score to this question
         if (checked) {
             if (view.getId() == R.id.q3_c) {
-                mScore3 = 25;
+                mScore3 = 20;
             } else {
                 mScore3 = 0;
             }
@@ -76,28 +76,28 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.q4_a:
                 if (checked) {
-                    mScore4_1 = -12.5;
+                    mScore4_1 = -10;
                 } else {
                     mScore4_1 = 0;
                 }
                 break;
             case R.id.q4_b:
                 if (checked) {
-                    mScore4_2 = 12.5;
+                    mScore4_2 = 10;
                 } else {
                     mScore4_2 = 0;
                 }
                 break;
             case R.id.q4_c:
                 if (checked) {
-                    mScore4_3 = -12.5;
+                    mScore4_3 = -10;
                 } else {
                     mScore4_3 = 0;
                 }
                 break;
             case R.id.q4_d:
                 if (checked) {
-                    mScore4_4 = 12.5;
+                    mScore4_4 = 10;
                 } else {
                     mScore4_4 = 0;
                 }
@@ -108,19 +108,25 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onButtonClicked(View view) {
+        // Check the star name
+        EditText starNameView = (EditText) findViewById(R.id.starname);
+        String starName = starNameView.getText().toString().toLowerCase();
+        if(starName.equals("sun")) {
+            mScore0 = 20;
+        } else {
+            mScore0 = 0;
+        }
+
         // Check the total score
-        double totalScore = mScore1 + mScore2 + mScore3 +
+        int totalScore = mScore0 + mScore1 + mScore2 + mScore3 +
                 mScore4_1 + mScore4_2 + mScore4_3 + mScore4_4;
         boolean highestScore = totalScore > 90;
-        // Check the user name
-        EditText userNameView = (EditText) findViewById(R.id.username);
-        String userName = userNameView.getText().toString();
 
         CharSequence textExtra = "";
         if (highestScore) {
-            textExtra = " Well done " + userName + "!";
+            textExtra = "Well done !";
         } else {
-            textExtra = " You could do better, please try again " + userName + "!";
+            textExtra = "You could do better, please try again !";
         }
 
         // Create toast message
@@ -130,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(context, textToast, durationToast);
         toast.show();
 
-        Log.v("MainActivity", "User name (if provided) is " + userName);
+        Log.v("MainActivity", "Star name provided is " + starName);
         Log.v("MainActivity", "Total score is " + totalScore);
         Log.v("MainActivity", "Is this the highest score: " + highestScore);
     }

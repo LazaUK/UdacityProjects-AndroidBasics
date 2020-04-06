@@ -19,10 +19,11 @@
     <string name="q4_c">Орион</string>
     <string name="q4_a">Поллукс</string>
     <string name="score">Ваш результат</string>
-    <string name="user_name">Введите ваше имя (выборочно)</string>
     <string name="q3_a">1759 г.</string>
     <string name="q3_b">1849 г.</string>
     <string name="q3_c">1846 г.</string>
     <string name="q3_d">1990 г.</string>
-    <string name="user">Пользователь</string>
+    <string name="answer">Ответ</string>
+    <string name="answer_star">Введите здесь Ваш ответ</string>
+    <string name="q0">Вопрос № 0: Как называется звезда Солнечной Системы ?</string>
 </resources>

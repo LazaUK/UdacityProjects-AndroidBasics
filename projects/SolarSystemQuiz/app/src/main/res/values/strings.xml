@@ -22,6 +22,7 @@
     <string name="q4_c">Orion</string>
     <string name="q4_d">Deimos</string>
     <string name="score">Get Your Score</string>
-    <string name="user_name">Enter your name here (optional)</string>
-    <string name="user">User</string>
+    <string name="answer">Answer</string>
+    <string name="answer_star">Enter your answer here</string>
+    <string name="q0">Question 0: Enter the name of the Solar System\'s star</string>
 </resources>
