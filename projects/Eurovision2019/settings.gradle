@@ -1,0 +1,2 @@
+rootProject.name='Eurovision2019'
+include ':app'

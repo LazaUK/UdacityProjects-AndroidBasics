@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Eurovision - 2019 (Finalists)</string>
+    <string name="now_playing">Now playing..</string>
+    <string name="song">Song:</string>
+    <string name="artist">Artist:</string>
+    <string name="country">Country:</string>
+    <string name="return_button">Stop and return</string>
+</resources>
