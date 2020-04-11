@@ -16,3 +16,8 @@ This repo contains all the main projects I've built and submitted as a part of m
 | App Screenshot | App Description |
 | --- | --- |
 | ![SolarQuiz](/images/project_solarquiz.png) | This app ports to Android platform the BBC Earth's [Solar System Quiz](https://www.bbcearth.com/blog/?article=solar-system-quiz). <br><br> It demonstrates the use of: <br>    - **ScrollView** view group; <br>    - **EditText**, **RadioGroup**, **RadioButton** and **CheckBox** views; <br>    - Debugging / assertion with **Log** class; <br>    - Notification with **Toast** class; <br>    - Localisation (*English* and *Russian*). <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
+
+## Multi-Screen App: Eurovision 2019 Finalists
+| App Screenshot | App Description |
+| --- | --- |
+| ![Eurovision](/images/project_eurovision.png) | This app shows the list of [Eurovision 2019 finalists](https://eurovision.tv/event/tel-aviv-2019/grand-final). <br><br> It demonstrates the use of: <br>    - **ScrollView** view group; <br>    - **EditText**, **RadioGroup**, **RadioButton** and **CheckBox** views; <br>    - Debugging / assertion with **Log** class; <br>    - Notification with **Toast** class; <br>    - Localisation (*English* and *Russian*). <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
