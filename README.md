@@ -21,3 +21,9 @@ This repo contains all the main projects I've built and submitted as a part of m
 | App Screenshot | App Description |
 | --- | --- |
 | ![Eurovision](/images/project_eurovision.png) | This app shows the list of [Eurovision 2019 finalists](https://eurovision.tv/event/tel-aviv-2019/grand-final). <br><br> It demonstrates the use of: <br>    - **ArrayList** for dynamic data upload; <br>    - **ListView** and **ArrayAdapter** to recycle views and optimise memory use; <br>    - **Activity** and **Intent** to switch between the screens; <br>    - **EventListener** to detect click events. <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
+
+
+## Multi-Screen App: Samarkand City Guide
+| App Screenshot | App Description |
+| --- | --- |
+| ![Samarkand](/images/project_samarkand.png) | This app is a city guide for Samarkand (Uzbekistan), decribing how to get there, what to see, where to stay and eat. <br><br> It demonstrates the use of: <br>    - ; <br>    - ; <br>    - ; <br>    - . <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
