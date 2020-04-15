@@ -26,4 +26,4 @@ This repo contains all the main projects I've built and submitted as a part of m
 ## Multi-Screen App: Samarkand City Guide
 | App Screenshot | App Description |
 | --- | --- |
-| ![Samarkand](/images/project_samarkand.png) | This app is a city guide for Samarkand (Uzbekistan), decribing how to get there, what to see, where to stay and eat. <br><br> It demonstrates the use of: <br>    - ; <br>    - ; <br>    - ; <br>    - . <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
+| ![Samarkand](/images/project_samarkand.png) | This app is a city guide for Samarkand (Uzbekistan), decribing how to get there, what to see, where to stay and eat. Content is based on the data from this [Wiki Voyage page](https://en.wikivoyage.org/wiki/Samarkand). <br><br> It demonstrates the use of: <br>    - ; <br>    - ; <br>    - ; <br>    - . <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
