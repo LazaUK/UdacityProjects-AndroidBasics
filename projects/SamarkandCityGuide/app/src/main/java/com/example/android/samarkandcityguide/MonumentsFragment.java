@@ -26,19 +26,19 @@ public class MonumentsFragment extends Fragment {
         // Add Arraylist of locations
         ArrayList<Location> locations = new ArrayList<Location>();
         locations.add(new Location(getString(R.string.monument_name_1), getString(R.string.monument_descr_1),
-                getString(R.string.monument_price_1), R.drawable.baseline_place_black_24));
+                getString(R.string.monument_price_1), R.drawable.registan));
         locations.add(new Location(getString(R.string.monument_name_2), getString(R.string.monument_descr_2),
-                getString(R.string.monument_price_2), R.drawable.baseline_place_black_24));
+                getString(R.string.monument_price_2), R.drawable.bibikhanym));
         locations.add(new Location(getString(R.string.monument_name_3), getString(R.string.monument_descr_3),
-                getString(R.string.monument_price_3), R.drawable.baseline_place_black_24));
+                getString(R.string.monument_price_3), R.drawable.khazrat));
         locations.add(new Location(getString(R.string.monument_name_4), getString(R.string.monument_descr_4),
-                getString(R.string.monument_price_4), R.drawable.baseline_place_black_24));
+                getString(R.string.monument_price_4), R.drawable.ulugbek));
         locations.add(new Location(getString(R.string.monument_name_5), getString(R.string.monument_descr_5),
-                getString(R.string.monument_price_5), R.drawable.baseline_place_black_24));
+                getString(R.string.monument_price_5), R.drawable.guremir));
         locations.add(new Location(getString(R.string.monument_name_6), getString(R.string.monument_descr_6),
-                getString(R.string.monument_price_6), R.drawable.baseline_place_black_24));
+                getString(R.string.monument_price_6), R.drawable.shakhizinda));
         locations.add(new Location(getString(R.string.monument_name_7), getString(R.string.monument_descr_7),
-                getString(R.string.monument_price_7), R.drawable.baseline_place_black_24));
+                getString(R.string.monument_price_7), R.drawable.albukhari));
 
         // Create an LocationAdapter with the list of Locations and assign it to ListView
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
