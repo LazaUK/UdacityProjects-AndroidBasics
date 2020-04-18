@@ -27,3 +27,9 @@ This repo contains all the main projects I've built and submitted as a part of m
 | App Screenshot | App Description |
 | --- | --- |
 | ![Samarkand](/images/project_samarkand.png) | This app is a city guide for Samarkand (Uzbekistan), based on this [Wiki Voyage page](https://en.wikivoyage.org/wiki/Samarkand). <br><br> It demonstrates the use of: <br>    - **Fragments** as a modular section within **Activity**; <br>    - **ViewPager** to swipe between UI screens; <br>    - **TabLayout** to enable switch between UI screens via Tabs. <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
+
+
+## Networking: Guardian News Reader
+| App Screenshot | App Description |
+| --- | --- |
+| ![NewsReader] | This app is a ... <br><br> It demonstrates the use of: <br>    - ; <br>    - ; <br>    - . <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
