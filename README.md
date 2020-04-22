@@ -3,7 +3,7 @@
 
 I kept some of their Nanodegree (ND) programs in my wishlist for a while, with intention to enrol sometime in the future when I would have more of the free time (dreams, sweet dreams.. :zzz:). However, when Udacity announced free 30-days access to all of their NDs at the end of March 2020, I had no more excuses and decided to start my first ND program - "Android Basics by Google".
 
-I officially pledged to the "30 Days of Udacity" (:hand:) and committed to spend 1-2 hours per day (:muscle:) to learn the basics of the Android Apps development. Program has started on 26th of March, and I plan to complete as much as I can by **26th of April**.
+I officially pledged to the "30 Days of Udacity" (:hand:) and committed to spend 1-2 hours per day (:muscle:) to learn the basics of the Android Apps development. Program itself has started on **26th of March**, and I managed to get my last (8th!) project approved on **22nd of April**, just before the deadline!
 
 This repo contains all the main projects I've built and submitted as a part of my study. Really great course (which exceeded my expectations - :star2: !) with an excellent content and a very knowledgeable tutors (who are themselves Developer Advocates at Google!). Strongly recommend to anyone who wants to get into the field of the mobile app development - :thumbsup: !
 
