@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Guardian News Reader</string>
+    <string name="no_news">No news found about Android.\n
+        Please verify that Guardian didn\'t remove\n
+        this content from their site</string>
+    <string name="response">response</string>
+</resources>
