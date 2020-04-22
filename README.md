@@ -32,4 +32,4 @@ This repo contains all the main projects I've built and submitted as a part of m
 ## Networking: Guardian News Reader
 | App Screenshot | App Description |
 | --- | --- |
-| ![NewsReader] | This app retrieves Android-related articles from the Guardian's [API Endpoint](https://content.guardianapis.com/search?q=android&api-key=test&show-references=author) <br><br> It demonstrates the use of: <br>    - ; <br>    - ; <br>    - . <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
+| ![NewsReader] | This app retrieves Android-related articles from the Guardian's [API Endpoint](https://content.guardianapis.com/search?q=android&api-key=test&show-references=author) <br><br> It demonstrates the use of: <br>    - **Uri.Builder** for dynamic URL query parameters; <br>    - **org.json.** library for JSON parsing; <br>    - **AsyncTaskLoader** class for threading. <br><br> **Note:** target API level is 28 (Android 9), although this app supports the minimum API level of 24 (Android 7.0).|
