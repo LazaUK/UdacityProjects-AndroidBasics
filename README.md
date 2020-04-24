@@ -3,7 +3,7 @@
 
 I kept some of their Nanodegree (ND) programs in my wishlist for a while, with intention to enrol sometime in the future when I would have more of the free time (dreams, sweet dreams.. :zzz:). However, when Udacity announced free 30-days access to all of their NDs at the end of March 2020, I had no more excuses and decided to start my first ND program - "Android Basics by Google".
 
-I officially pledged to the "30 Days of Udacity" (:hand:) and committed to spend 1-2 hours per day (:muscle:) to learn the basics of the Android Apps development. Program itself has started on **26th of March**, and I managed to get my last (8th!) project approved and graduate on **22nd of April**, just before the deadline!
+I officially pledged to the "30 Days of Udacity" (:hand:) and committed to spend 1-2 hours per day (:muscle:) to learn the basics of the Android Apps development. Program itself has started on **26th of March**, and I managed to get my last (8th!) project approved and graduated on **22nd of April**, just before the deadline!
 
 My "Android Basics Nanodegree by Google" certificate can be verified [here](https://graduation.udacity.com/confirm/SM4QGCSR).
 
